@@ -9,4 +9,4 @@ pub fn parse_pdf(path: &str) -> String {
         }  
     }  
     text  
-}  
+} 
