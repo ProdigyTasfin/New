@@ -11,7 +11,7 @@ int main(){
     // int v=3*3;
     // printf("Value: %d \n ",v);
 
-// Question: char dt= '21 dec 2020';
+// Question: char dt= '21 dec 2020'; this is invaild form, this is not char this is string...
 
     char d[] = "21 Dec 2020";
     printf("Date : %s \n", d);
