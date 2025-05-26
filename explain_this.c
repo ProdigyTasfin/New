@@ -15,9 +15,13 @@ int main(){
 
     // 3.01 + 1 will be int, float, char?
 
-    float a = 3.0;
-    int b = 1;
-    float c = a+b;
-    printf("Value: %.1f \n", c);
+    // float a = 3.0;
+    // int b = 1;
+    // float c = a+b;
+    // printf("Value: %.1f \n", c);
+
+    int x = printf("Hello");
+    printf("%d \n", x);
+
     return 0;
 }
