@@ -13,7 +13,8 @@ int main() {
         printf("Farhan, you got 95%%\n");
     } 
 
-    else if (strcmp(name, "Shakib") == 0) {
+    else if (str
+    cmp(name, "Shakib") == 0) {
         printf("Hello Shakib, your mark is 89%%.\n");
     }
     else if (strcmp(name, "Yamin") == 0) {

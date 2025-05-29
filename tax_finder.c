@@ -7,7 +7,7 @@ int main(){
     printf("Enter Your Income: ");
     scanf("%d", &income);
 
-    if (income < 100000) {
+    if (income < 250000) {
         printf("No Income Tax!\n");
     }
     else if (income >= 250000 && income < 500000) {
