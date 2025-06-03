@@ -7,7 +7,7 @@ int main (){
 
     for (int i = 1; i <= 10; i++) {
         int multi = 8 * i;
-        sum = multi+multi;  // accumulate the result
+        sum = sum+multi;  // accumulate the result
         printf("8 x %d = %d\n", i, multi);  // optional: show each step
     }
 
