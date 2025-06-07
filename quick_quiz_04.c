@@ -1,5 +1,7 @@
 #include <stdio.h>
 
+// Write three greetings(good morning, good afternoon, good evening) 1 by 1 using user-functions
+
 void good_morning();
 void good_afternoon();
 void good_evening();
