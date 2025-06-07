@@ -1,5 +1,9 @@
 #include <stdio.h>
 
+// What is Recursion?
+// recursion is a technique in which a function calls itself to solve smaller parts of the same problem — 
+// until it reaches a base case (which stops the recursion).
+
 // Function prototype
 int factorial(int);
 
