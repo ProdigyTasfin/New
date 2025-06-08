@@ -13,7 +13,7 @@ printf("%d %d %d\n", a, ++a, a++);
 there is no guarantee of the order in which a, ++a, and a++ will be evaluated. */
 
 int main(){
-     int a = 1;
+     int a = 4;
     printf("%d %d %d \n", a, ++a, a++);
     return 0;
 }
