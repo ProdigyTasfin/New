@@ -2,7 +2,7 @@
 
 int sum(int *, int *);
 
-int sum(int* a, int* b){
+int sum(int * a, int * b){
     *a = 6;
 
     return *a + *b;
