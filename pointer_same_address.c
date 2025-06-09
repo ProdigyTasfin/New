@@ -15,6 +15,10 @@ void function(int* a) {
 
 int main() {
     int i = 4;
+    int*j = &i;
+
+    printf("The value of i from address: %d\n", *j);
+
     printf("The address of i in main is: %p\n", (void*)&i);
 
     function(&i); // Passing the address of i
