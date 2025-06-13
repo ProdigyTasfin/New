@@ -13,7 +13,7 @@ int main() {
     printf("Rate (annual interest rate in %%): ");
     scanf("%f", &r);
 
-    i = (p * r * t) / 100;  // Correct formula
+    i = (p * r * t) / 100;  // Correct formula...
 
     printf("Simple Interest: %.2f\n", i);
 
