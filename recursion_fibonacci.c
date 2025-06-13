@@ -8,7 +8,7 @@ int fibonacci(int);
 
 // Recursive function to find nth Fibonacci number
 int fibonacci(int n) {
-    if (n == 0)          // Base case
+    if (n == 0)          // Base case...
         return 0;
     else if (n == 1)     // Base case...
         return 1;
