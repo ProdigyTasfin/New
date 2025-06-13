@@ -6,7 +6,7 @@
 // Function prototype
 int fibonacci(int);
 
-// Recursive function to find nth Fibonacci number
+// Recursive function to find nth Fibonacci number...
 int fibonacci(int n) {
     if (n == 0)          // Base case...
         return 0;
