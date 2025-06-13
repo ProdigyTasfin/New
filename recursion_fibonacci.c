@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 
-// Write a program using recursion to calcualte  n(th) element of Fibonacci series.
+// Write a program using recursion to calcualte  n(th) element of Fibonacci series...
 
 // Function prototype
 int fibonacci(int);
