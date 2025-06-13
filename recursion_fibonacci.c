@@ -1,18 +1,18 @@
 #include <stdio.h>
 
 
-// Write a program using recursion to calcualte  n(th) element of Fibonacci series...
+// Write a program using recursion to calcualte  n(th) element of Fibonacci series.
 
 // Function prototype
 int fibonacci(int);
 
-// Recursive function to find nth Fibonacci number...
+// Recursive function to find nth Fibonacci number.
 int fibonacci(int n) {
-    if (n == 0)          // Base case...
+    if (n == 0)          // Base case.
         return 0;
-    else if (n == 1)     // Base case...
+    else if (n == 1)     // Base case.
         return 1;
-    else                 // Recursive case...
+    else                 // Recursive case.
         return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
