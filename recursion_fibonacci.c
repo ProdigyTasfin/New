@@ -12,7 +12,7 @@ int fibonacci(int n) {
         return 0;
     else if (n == 1)     // Base case
         return 1;
-    else                 // Recursive case
+    else                 // Recursive case...
         return fibonacci(n - 1) + fibonacci(n - 2);
 }
 
